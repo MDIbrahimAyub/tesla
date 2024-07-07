@@ -1,0 +1,414 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-LHD-v2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.logo img {
+    width: 10vw;
+    object-fit: contain;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 3px 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.20vw;
+    font-family: "poppins", sans-serif;
+}
+
+.icons {
+    padding-right: 50px;
+}
+
+.icons i {
+    font-size: 1.50vw;
+    padding: 5px;
+    cursor: pointer;
+}
+.content{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.content h1{
+    font-size: 3.50vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.content p{
+    font-size: 1.70vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.content p span {
+    color: #393C41;
+}
+.btn{
+    margin-top: 20%;
+}
+.btn a{
+    padding: 8px 60px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "poppins", sans-serif;
+}
+.btn .bla{
+    background-color: #000;
+    color: #fff;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-t{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.p-t h1{
+    font-size: 3.50vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.p-t p{
+    font-size: 1.70vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.btn1{
+    margin-top: 24%;
+}
+.btn1 a{
+    padding: 8px 60px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "poppins", sans-serif;
+}
+.btn1 .bla{
+    background-color: #000;
+    color: #fff;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-v2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-t{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.p-t h1{
+    font-size: 3.50vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.p-t p{
+    font-size: 1.70vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.btn1{
+    margin-top: 24%;
+}
+.btn1 a{
+    padding: 8px 60px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "poppins", sans-serif;
+}
+.btn1 .bla{
+    background-color: #000;
+    color: #fff;
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-t{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.p-t h1{
+    font-size: 3.50vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.p-t p{
+    font-size: 1.70vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.btn1{
+    margin-top: 24%;
+}
+.btn1 a{
+    padding: 8px 60px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "poppins", sans-serif;
+}
+.btn1 .bla{
+    background-color: #000;
+    color: #fff;
+}
+.page4{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-t{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.p-t h1{
+    font-size: 3.50vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.p-t p{
+    font-size: 1.70vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.btn1{
+    margin-top: 24%;
+}
+.btn1 a{
+    padding: 8px 60px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "poppins", sans-serif;
+}
+.btn1 .bla{
+    background-color: #000;
+    color: #fff;
+}
+
+.page5{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-t1{
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+.p-t1 h1{
+    font-size: 3.50vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.p-t1 p{
+    font-size: 1.70vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.btn1{
+    margin-top: 24%;
+}
+.btn1 a{
+    padding: 8px 60px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "poppins", sans-serif;
+}
+.btn1 .bla{
+    background-color: #000;
+    color: #fff;
+}
+.page6{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-t{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.p-t h1{
+    font-size: 3.50vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.p-t p{
+    font-size: 1.70vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.btn1{
+    margin-top: 24%;
+}
+.btn1 a{
+    padding: 8px 60px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "poppins", sans-serif;
+}
+.btn1 .bla{
+    background-color: #000;
+    color: #fff;
+}
+.page7{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-t{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.p-t h1{
+    font-size: 3.50vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.p-t p{
+    font-size: 1.70vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.btn1{
+    margin-top: 24%;
+}
+.btn1 a{
+    padding: 8px 60px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "poppins", sans-serif;
+}
+.btn1 .bla{
+    background-color: #000;
+    color: #fff;
+}
+.page8{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-t{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.p-t h1{
+    font-size: 3.50vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.p-t p{
+    font-size: 1.70vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+.btn1{
+    margin-top: 24%;
+}
+.btn1 a{
+    padding: 8px 60px;
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "poppins", sans-serif;
+}
+.btn1 .bla{
+    background-color: #000;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-t{
+    width: 60%;
+}
+.f-t p{
+    font-size: 0.8vw;
+    color: #fff;
+    font-family: "poppins",sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
